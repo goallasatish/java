@@ -1,1 +1,36 @@
+*.class
 
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Maven
+target/
+dependency-reduced-pom.xml
+
+#Eclipse files
+.project
+.classpath
+
+#Idea Files
+.idea
+*.iml
+
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Flight Recorder files
+*.jfr
+
+# Log files
+*.log
